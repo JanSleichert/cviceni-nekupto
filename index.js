@@ -15,3 +15,9 @@ const product3 = {
   name: 'Anatoplavky',
   description: 'Aby muži na rozpálených plážích kromě vašeho těla obdivovali také vaše nitro.',
 };
+const productOne = document.querySelector("#product1")
+productOne.classList.add("border-primary")
+const knoflik = document.querySelector("#knoflik")
+knoflik.classList.remove("btn-primary")
+const titulek = document.querySelector("#titulek")
+titulek.classList.toggle("text-center")
